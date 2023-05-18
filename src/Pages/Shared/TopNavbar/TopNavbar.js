@@ -2,7 +2,6 @@
 import React from "react";
 
 const TopNavbar = () => {
-<<<<<<< HEAD
   return (
     <>
       {/* top navbar start */}
@@ -88,13 +87,6 @@ const TopNavbar = () => {
       {/* top navbar end */}
     </>
   );
-=======
-    return (
-      <>
-      <h1>ommings soong!!!!!!!!!!c!</h1>
-      </>
-    );
->>>>>>> 513d26194c30e00fe740b71b1632e748716a8e9d
 };
 
 export default TopNavbar;
