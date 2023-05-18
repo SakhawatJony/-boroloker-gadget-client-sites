@@ -5,8 +5,8 @@ const HomeBanner = () => {
     return (
       <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={Banner} className="max-w-sm rounded-lg " />
-        <div>
+        <img src={Banner} className="max-w-sm rounded-lg" />
+        <div className='m-auto'> 
           <h1 className="text-1xl font-bold">BEST PRICE <span className='text-lime-400'>$1999.0</span> </h1>
           <h1 className="text-6xl font-bold uppercase">smartphone x  transform</h1>
           <p className="py-6">In feugiat molestie tortor a malesuada. Etiam a venenatis ipsum. Proin <br /> pharetra elit at feugiat commodo vel placerat tincidunt sapien nec.</p>

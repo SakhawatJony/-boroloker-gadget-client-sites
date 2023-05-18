@@ -1,0 +1,27 @@
+/* #collection-banner{
+    padding-left: 15px;
+} */
+
+#banner-top{
+    background-image: url(../../../Images/background-9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-left: 45px;
+    height: 500px;
+    position: relative;
+  
+
+}
+
+#banner-up{
+    background-image: url(../../../Images/background-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+   padding-left: 45px;
+   height: 500px;
+   position: relative;
+
+
+}

@@ -2,7 +2,6 @@
 import React from "react";
 
 const TopNavbar = () => {
-<<<<<<< HEAD
   return (
     <>
       {/* top navbar start */}
@@ -55,7 +54,7 @@ const TopNavbar = () => {
                       className="s relative w-8 h-8 flex items-center justify-center text-sm text-[#b8cd06] bg-white transition-all rounded-full"
                       href="/wishlist"
                     >
-                      <i class="fas fa-heart"></i>
+                      <i className="fas fa-heart"></i>
                     </a>
                   </li>
                   <li className="inline-block mr-3">
@@ -63,7 +62,7 @@ const TopNavbar = () => {
                       className="s relative w-8 h-8 flex items-center justify-center text-sm text-[#b8cd06] bg-white transition-all rounded-full"
                       href="/wishlist"
                     >
-                      <i class="fas fa-cart-plus"></i>
+                      <i className="fas fa-cart-plus"></i>
                     </a>
                   </li>
                   <li className="inline-block mr-3">
@@ -71,7 +70,7 @@ const TopNavbar = () => {
                       className="s relative w-8 h-8 flex items-center justify-center text-sm text-[#b8cd06] bg-white transition-all rounded-full"
                       href="/wishlist"
                     >
-                      <i class="fas fa-user"></i>
+                      <i className="fas fa-user"></i>
                     </a>
                   </li>
                 </ul>
@@ -88,13 +87,6 @@ const TopNavbar = () => {
       {/* top navbar end */}
     </>
   );
-=======
-    return (
-      <>
-      <h1>ommings soong!!!!!!!!!!c!</h1>
-      </>
-    );
->>>>>>> 513d26194c30e00fe740b71b1632e748716a8e9d
 };
 
 export default TopNavbar;
