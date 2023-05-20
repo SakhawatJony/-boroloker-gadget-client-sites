@@ -5,7 +5,7 @@ const Collection = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2  ">
       <div className="bg-green-400" id="banner-top">
-        <h6 className="text-lime-500 text-1xl font-medium">RELAX COLLECTION</h6>
+        <h6 className="text-lime-400 text-1xl font-medium">RELAX COLLECTION</h6>
         <h2 className="text-3xl font-bold text-white pt-1">
           YOUR PERFECT SOUND
         </h2>
@@ -19,7 +19,7 @@ const Collection = () => {
       </div>
 
       <div className="bg-yellow-200"  id="banner-up">
-        <h6 className="text-lime-500 text-1xl font-medium">RELAX COLLECTION</h6>
+        <h6 className="text-lime-400 text-1xl font-medium">RELAX COLLECTION</h6>
         <h2 className="text-3xl font-bold text-white pt-1">
           YOUR PERFECT SOUND
         </h2>
