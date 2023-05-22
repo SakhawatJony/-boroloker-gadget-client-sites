@@ -1,0 +1,22 @@
+input:hover{
+    border: 1px solid #b8cd06;
+    
+}
+textarea:hover{
+    border: 1px solid #b8cd06;
+    
+}
+
+i:hover{
+   background-color: #b8cd06;
+   border-radius: 50%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #main-input {
+      margin-left:-200px ;
+     
+    }
+   
+  }
