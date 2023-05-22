@@ -6,7 +6,7 @@
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type and setting for content",
     "price": "$155.00",
     "color": { "primary": "", "cyan": "", "gray": "" },
-    "img": "../src/Images/background-10.jpg"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-62-removebg-preview.png"
   },
   {
     "id": "02",
@@ -15,7 +15,7 @@
     "description": "Get our text demo is simply dummy text of the printings and type and setting for content",
     "price": "$180.00",
     "color": { "primary": "", "cyan": "", "gray": "" },
-    "img": "https://shorturl.at/cekoL"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-63-removebg-preview.png"
   },
   {
     "id": "03",
@@ -24,7 +24,7 @@
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$190.00",
     "color": { "primary": "", "cyan": "", "gray": "" },
-    "img": "https://shorturl.at/xBFNY"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-64-removebg-preview.png"
   },
   {
     "id": "04",
@@ -33,7 +33,7 @@
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$175.00",
     "color": { "primary": "", "cyan": "", "gray": "" },
-    "img": "https://shorturl.at/cCM17"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-65-removebg-preview.png"
   },
   {
     "id": "05",
@@ -41,7 +41,7 @@
     "title": "modern beat nine",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$630.00",
-    "img": "https://shorturl.at/emUV5"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-66-removebg-preview.png"
   },
   {
     "id": "06",
@@ -49,7 +49,7 @@
     "title": "sport beat rtx",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$175.00",
-    "img": "https://shorturl.at/jkn12"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-67-removebg-preview.png"
   },
   {
     "id": "07",
@@ -57,7 +57,7 @@
     "title": "hipster beat hr",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$155.00",
-    "img": "https://shorturl.at/dlntP"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-68-removebg-preview.png"
   },
   {
     "id": "08",
@@ -65,7 +65,7 @@
     "title": "sport beat rtx",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$630.00",
-    "img": "https://shorturl.at/AGLSZ"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-69-removebg-preview.png"
   },
   {
     "id": "09",
@@ -73,7 +73,7 @@
     "title": "modern beat ht",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$175.00",
-    "img": "https://shorturl.at/osRT7"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-70-removebg-preview.png"
   },
   {
     "id": "10",
@@ -81,7 +81,7 @@
     "title": "sport beat rtx",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$599.00",
-    "img": "https://shorturl.at/akFSX"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-74-removebg-preview.png"
   },
   {
     "id": "12",
@@ -89,6 +89,6 @@
     "title": "hipster beat hr",
     "description": "Lorem Ipsum is simply is very dummy text of the printings and type setting for content",
     "price": "$175.00",
-    "img": "https://shorturl.at/dnPT9"
+    "img": "https://github.com/saifulemon/images-for-all-project/blob/main/boroloker-gadget/home-data/product-75-removebg-preview.png"
   }
 ]
