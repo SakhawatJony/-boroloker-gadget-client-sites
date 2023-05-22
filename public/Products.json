@@ -1,4 +1,5 @@
 [
+
     {"id":"01","brand":"MODERN EDITION","title":"modern beat ht","description":"Lorem Ipsum is simply is very dummy text of the printings and type and setting for content","price":"$155.00","color":{"primary":"","cyan":"","gray":""},"img":"../src/Images/background-10.jpg"},
     {"id":"02","brand":"ERGO EDITION","title":"sport beat atx","description":"Get our text demo is simply dummy text of the printings and type and setting for content","price":"$180.00","color":{"primary":"","cyan":"","gray":""},"img":"https://shorturl.at/cekoL"},
     {"id":"03","brand":"COLOREX EDITION","title":"hipster beat hr","description":"Lorem Ipsum is simply is very dummy text of the printings and type setting for content","price":"$190.00","color":{"primary":"","cyan":"","gray":""},"img":"https://shorturl.at/xBFNY"},
@@ -11,3 +12,5 @@
     {"id":"10","brand":"ERGO EDITION","title":"sport beat rtx","description":"Lorem Ipsum is simply is very dummy text of the printings and type setting for content","price":"$599.00","img":"https://shorturl.at/akFSX"},
     {"id":"12","brand":"Modern edition","title":"hipster beat hr","description":"Lorem Ipsum is simply is very dummy text of the printings and type setting for content","price":"$175.00","img":"https://shorturl.at/dnPT9"}
 ]
+
+ 
