@@ -226,7 +226,7 @@ const Services = () => {
 
       {/* into section Ends */}
       {/* finshed section start  */}
-      <section className="mt-10 mx-12">
+      <section className="mt-5 mx-12">
         <div className="text-center">
           <h1 className="font-medium">OUR AWARD</h1>
           <h2 style={{ color: "#343434" }} className="text-5xl font-bold">
