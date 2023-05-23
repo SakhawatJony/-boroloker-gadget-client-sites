@@ -14,9 +14,10 @@ const Home = () => {
              <Collection></Collection>
             <Products></Products>
              <Subscriber></Subscriber>
+             <Services></Services>
              <Brand></Brand>
              <Contact></Contact>
-             <Services></Services>
+             
 
             
         </div>
