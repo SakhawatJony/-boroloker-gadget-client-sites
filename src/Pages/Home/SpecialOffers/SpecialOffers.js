@@ -82,6 +82,8 @@ const SpecialOffers = () => {
                         </div>
                     </div>
                 </div>
+
+
                 <div className='grid md:grid-cols-2 mt-9 carousel-item' id='item3'>
                     <div>
                         <div id="bg-offer-img"  >
