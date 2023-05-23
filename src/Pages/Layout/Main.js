@@ -6,7 +6,7 @@ import TopNavbar from '../Shared/TopNavbar/TopNavbar';
 
 const Main = () => {
     return (
-        <div>
+    <div>
             <TopNavbar></TopNavbar>
             <Navbar></Navbar>
             <Outlet></Outlet>
