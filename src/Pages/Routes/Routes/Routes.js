@@ -5,6 +5,9 @@ import Login from "../../Login/Login/Login";
 import Services from "../../Services/Services";
 import Contact from "../../Home/Contact/Contact";
 import Products from "../../Home/Product/Products/Products";
+import Register from "../../Login/Login/Register/Register";
+import Dashboard from "../../Dashboard/Dashboard/Dashboard";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +22,14 @@ const router = createBrowserRouter([
             {
                 path:'login',
                 element:<Login></Login>
+            },
+            {
+                path:'register',
+                element:<Register></Register>
+            },
+            {
+                path:'dashboard',
+                element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
             },
             {
                 path:'products',
