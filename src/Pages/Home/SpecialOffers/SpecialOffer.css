@@ -1,0 +1,13 @@
+#bg-offer-img {
+    background-image: url(../../../Images/thumbnail-24.jpg);
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    height: 550px;
+
+}
+
+.headphone {
+    width: 350px;
+    margin-top: -100px;
+    margin-left: 415px;
+}
