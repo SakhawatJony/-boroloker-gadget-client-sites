@@ -1,9 +1,9 @@
 import React from 'react';
+import { useFormAction } from 'react-router-dom';
 import login from '../../../Images/login.png'
-import { useForm } from 'react-hook-form';
 
 const Login = () => {
-    const { register, handleSubmit } = useForm();
+  const { register, handleSubmit } = useFormAction();
   const onSubmit = data => console.log(data);
     return (
        <section>
