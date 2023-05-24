@@ -5,32 +5,37 @@ import Login from "../../Login/Login/Login";
 import Services from "../../Services/Services";
 import Contact from "../../Home/Contact/Contact";
 import Products from "../../Home/Product/Products/Products";
+import About from "../../Home/About/About";
 
 const router = createBrowserRouter([
     {
 
-        path:'/',
-        element:<Main></Main>,
-        children:[
+        path: '/',
+        element: <Main></Main>,
+        children: [
             {
-                path:'/',
-                element:<Home></Home>
+                path: '/',
+                element: <Home></Home>
             },
             {
-                path:'login',
-                element:<Login></Login>
+                path: 'login',
+                element: <Login></Login>
             },
             {
-                path:'products',
-                element:<Products></Products>
+                path: 'products',
+                element: <Products></Products>
             },
             {
-                path:'service',
-                element:<Services></Services>
+                path: 'service',
+                element: <Services></Services>
             },
             {
-                path:'contact',
-                element:<Contact></Contact>
+                path: 'contact',
+                element: <Contact></Contact>
+            },
+            {
+                path: 'about',
+                element: <About></About>
             }
         ]
     }
