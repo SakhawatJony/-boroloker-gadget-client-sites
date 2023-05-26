@@ -1,4 +1,3 @@
-
 import { RouterProvider } from 'react-router-dom';
 import './App.css';
 import router from './Pages/Routes/Routes/Routes';
@@ -10,8 +9,6 @@ function App() {
     <div className='overflow-hidden'>
       <RouterProvider router={router}></RouterProvider>
       <Toaster />
-     
-     
     </div>
   );
 }

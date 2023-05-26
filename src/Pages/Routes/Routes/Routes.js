@@ -5,13 +5,11 @@ import Login from "../../Login/Login/Login";
 import Services from "../../Services/Services";
 import Contact from "../../Home/Contact/Contact";
 import Products from "../../Home/Product/Products/Products";
-<<<<<<< HEAD
 import Register from "../../Login/Login/Register/Register";
 import Dashboard from "../../Dashboard/Dashboard/Dashboard";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
-=======
 import About from "../../Home/About/About";
->>>>>>> 89788651cfbb466e7e8c94bb7028a925d79a8282
+import Blog from "../../Home/Blog/Blog";
 
 const router = createBrowserRouter([
     {
@@ -28,21 +26,17 @@ const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-<<<<<<< HEAD
-                path:'register',
-                element:<Register></Register>
+                path: 'register',
+                element: <Register></Register>
             },
             {
-                path:'dashboard',
-                element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
+                path: 'dashboard',
+                element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>
             },
             {
-                path:'products',
-                element:<Products></Products>
-=======
                 path: 'products',
                 element: <Products></Products>
->>>>>>> 89788651cfbb466e7e8c94bb7028a925d79a8282
+
             },
             {
                 path: 'service',
@@ -55,6 +49,10 @@ const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <About></About>
+            },
+            {
+                path: 'blog',
+                element: <Blog></Blog>
             }
         ]
     }
