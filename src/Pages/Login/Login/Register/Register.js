@@ -1,15 +1,19 @@
 import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import GoogleIcons from '../../../../Images/google (2).png'
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import login from "../../../../Images/login.png";
 import { AuthContext } from '../../../../Contexts/AuthProvider/AuthProvider';
 import { ToastBar, toast } from 'react-hot-toast';
 
 const Register = () => {
     const { register, handleSubmit,formState: { errors } } = useForm();
-    const {createUser,updateUser} = useContext(AuthContext)
+    const {createUser,updateUser,signInWithGoogle} = useContext(AuthContext)
     const [signUpError,setSignUpError]=useState('');
+  
+
+
+
     const handleSignUp = data =>{
      console.log(data)
      setSignUpError('')
@@ -28,6 +32,18 @@ const Register = () => {
         console.log(error)
         setSignUpError(error.message)});
     }
+    const handleGoogleSignIn = () =>{
+      signInWithGoogle()
+      .then( (result) =>{
+        const user = result.user;
+        console.log(user)
+  
+          
+      })
+      .catch(error=>{
+        console.log(error)
+      })
+  }
     return (
         <div>
            <section className="mx-6 p-10">
@@ -94,7 +110,7 @@ const Register = () => {
           </form>
           <p style={{color:'#888'}} className="font-medium">Already have an account <Link className="font-bold" style={{color:'#b8cd06'}} to='/Login'>Please Login?</Link></p>
           <div className="divider font-bold">OR</div>
-          <button style={{background:'#555'}} className="btn w-80 border-none"> <img src={GoogleIcons} style={{height:'50px',width:'55px'}} alt="" /> Google</button>
+          <button onClick={handleGoogleSignIn} style={{background:'#555'}} className="btn w-80 border-none"> <img src={GoogleIcons} style={{height:'50px',width:'55px'}} alt="" /> Google</button>
         </div>
       </div>
     </section>

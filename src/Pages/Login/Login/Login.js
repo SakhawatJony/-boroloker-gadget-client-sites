@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import login from "../../../Images/login.png";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -7,8 +6,9 @@ import GoogleIcons from "../../../Images/google (2).png";
 import { AuthContext } from "../../../Contexts/AuthProvider/AuthProvider";
 
 const Login = () => {
-  const {signIn} = useContext(AuthContext)
-  const [loginError,setLoginError] =useState("");
+  const {signIn,signInWithGoogle} = useContext(AuthContext)
+  
+  
   const location = useLocation();
   const navigate = useNavigate();
   const from = location.state?.from?.pathname || '/';
@@ -27,6 +27,19 @@ const Login = () => {
     })
     .catch(error =>console.log(error.message));
   };
+  const handleGoogleSignIn = () =>{
+    signInWithGoogle()
+    .then( (result) =>{
+      const user = result.user;
+      console.log(user)
+
+        navigate(from, {replace: true})
+    })
+    .catch(error=>{
+      console.log(error)
+    })
+}
+  
   return (
     <section className="mx-6 p-10">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 items-center justify-items-center">
@@ -118,6 +131,7 @@ const Login = () => {
             {" "}
             <img
               src={GoogleIcons}
+              onClick={handleGoogleSignIn}
               style={{ height: "50px", width: "55px" }}
               alt=""
             />{" "}
@@ -130,48 +144,3 @@ const Login = () => {
 };
 
 export default Login;
-=======
-<<<<<<< HEAD
-// import React from 'react';
-// import login from '../../../Images/login.png'
-// import { useForm } from 'react-hook-form';
-
-// const Login = () => {
-//   const { register, handleSubmit } = useForm();
-//   const onSubmit = data => console.log(data);
-//   return (
-//     <section>
-//       <div>
-//         <div> <img src={login} alt="" /> </div>
-//         <div>
-//           <form onSubmit={handleSubmit(onSubmit)}>
-//             <input {...register("firstName")} />
-//             <input type="submit" />
-//           </form>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-=======
-import React from 'react';
-import { useFormAction } from 'react-router-dom';
-import login from '../../../Images/login.png'
-
-const Login = () => {
-  const { register, handleSubmit } = useFormAction();
-  const onSubmit = data => console.log(data);
-    return (
-       <section>
-        <div>
-            <div> <img src={login} alt="" /> </div>
-            <div>
-            <form onSubmit={handleSubmit(onSubmit)}>
-      <input {...register("firstName")} />
-     
-      <input type="submit" />
-    </form>
->>>>>>> f41cf738390f178743ed92da8c36d7a336d33d6e
-
-// export default Login;
->>>>>>> 89788651cfbb466e7e8c94bb7028a925d79a8282
