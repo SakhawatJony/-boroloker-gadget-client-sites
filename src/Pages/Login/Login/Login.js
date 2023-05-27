@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useContext } from "react";
+=======
+import React, { useContext, useState } from "react";
+>>>>>>> 31c87c18df27e49e6698920c5583d59ea2f37c61
 import login from "../../../Images/login.png";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -144,3 +148,46 @@ const Login = () => {
 };
 
 export default Login;
+<<<<<<< HEAD
+=======
+
+// import React from 'react';
+// import login from '../../../Images/login.png'
+// import { useForm } from 'react-hook-form';
+
+// const Login = () => {
+//   const { register, handleSubmit } = useForm();
+//   const onSubmit = data => console.log(data);
+//   return (
+//     <section>
+//       <div>
+//         <div> <img src={login} alt="" /> </div>
+//         <div>
+//           <form onSubmit={handleSubmit(onSubmit)}>
+//             <input {...register("firstName")} />
+//             <input type="submit" />
+//           </form>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+// import React from 'react';
+// import { useFormAction } from 'react-router-dom';
+// import login from '../../../Images/login.png'
+
+// const Login = () => {
+//   const { register, handleSubmit } = useFormAction();
+//   const onSubmit = data => console.log(data);
+//     return (
+//        <section>
+//         <div>
+//             <div> <img src={login} alt="" /> </div>
+//             <div>
+//             <form onSubmit={handleSubmit(onSubmit)}>
+//       <input {...register("firstName")} />
+     
+//       <input type="submit" />
+//     </form>
+
+>>>>>>> 31c87c18df27e49e6698920c5583d59ea2f37c61
