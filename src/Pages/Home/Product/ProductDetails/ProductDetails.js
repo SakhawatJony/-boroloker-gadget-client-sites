@@ -3,18 +3,17 @@ import { useParams } from "react-router-dom";
 
 const ProductDetails = () => {
   const { serviceId } = useParams();
-  const [products, setProducts] = useState([]);
-
- 
-  // useEffect(()=>{
-  //   fetch('/services.json')
-  //   .then(res => res.json())
-  //   .then(data=>setProducts(data))
-  //   },[])
+  const [products, setProducts] = useState([])
 
 
-    const matchingProducts = products.find(crouse => crouse.id === Number(serviceId));
-    console.log(matchingProducts)
+  useEffect(() => {
+    const url = `http://localhost:5000/products/${serviceId}`;
+    console.log(url);
+    fetch(url)
+      .then(res => res.json())
+      .then(data => setProducts(data));
+
+  }, [])
   return (
 
    <>

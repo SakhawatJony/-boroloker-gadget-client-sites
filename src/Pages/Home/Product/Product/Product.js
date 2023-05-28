@@ -3,14 +3,14 @@
 import { Link, useNavigate } from "react-router-dom";
 
 const Product = ({ product }) => {
-  const { id, title, description, img, price } = product;
+  const { _id, title, description, img, price } = product;
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
 
-  // const navigateToServiceDetails = id => {
-  //   navigate(`/product/${id}`);
-  // }
+  const navigateToServiceDetails = id => {
+    navigate(`/product/${id}`);
+  }
 
 
   return (
@@ -31,7 +31,7 @@ const Product = ({ product }) => {
           </p>
           <p>{description}</p>
           <div className="card-actions justify-end">
-          <Link to={`/product/${id}`}>  <button className="btn bg-lime-500 border-none">Buy Now</button></Link>
+          <button onClick={() => navigateToServiceDetails(_id)} className="btn bg-lime-500 border-none">Buy Now</button>
           </div>
         </div>
       </div>
