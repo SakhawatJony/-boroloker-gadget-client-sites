@@ -10,6 +10,11 @@ import Dashboard from "../../Dashboard/Dashboard/Dashboard";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
 import About from "../../Home/About/About";
 import ProductDetails from "../../Home/Product/ProductDetails/ProductDetails";
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 981f985e8e647a10445d6f9fb06d7de58227e1ee
 import Blog from "../../Home/Blog/Blog";
 
 
@@ -29,8 +34,13 @@ const router = createBrowserRouter([
             },
             {
 
+<<<<<<< HEAD
                 path:'register',
                 element:<Register></Register>
+=======
+                path: 'register',
+                element: <Register></Register>
+>>>>>>> 981f985e8e647a10445d6f9fb06d7de58227e1ee
 
             },
             {
@@ -38,6 +48,7 @@ const router = createBrowserRouter([
                 element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>
             },
             {
+<<<<<<< HEAD
 
                 path:'products',
                 element:<Products></Products>
@@ -53,6 +64,21 @@ const router = createBrowserRouter([
                 </PrivateRoute>
 
                 
+=======
+
+                path: 'products',
+                element: <Products></Products>
+
+
+
+            },
+
+            {
+                path: '/product/:serviceId',
+                element: <PrivateRoute>
+                    <ProductDetails></ProductDetails>
+                </PrivateRoute>
+>>>>>>> 981f985e8e647a10445d6f9fb06d7de58227e1ee
             },
             {
                 path: 'service',
