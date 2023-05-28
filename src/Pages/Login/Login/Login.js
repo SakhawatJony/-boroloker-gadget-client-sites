@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-import React, { useContext } from "react";
-=======
+
 import React, { useContext, useState } from "react";
->>>>>>> 31c87c18df27e49e6698920c5583d59ea2f37c61
 import login from "../../../Images/login.png";
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -148,8 +145,7 @@ const Login = () => {
 };
 
 export default Login;
-<<<<<<< HEAD
-=======
+
 
 // import React from 'react';
 // import login from '../../../Images/login.png'
@@ -190,4 +186,3 @@ export default Login;
 //       <input type="submit" />
 //     </form>
 
->>>>>>> 31c87c18df27e49e6698920c5583d59ea2f37c61
